@@ -1,0 +1,18 @@
+{
+  "name": "DareToDance",
+  "version": "1.0.0",
+  "description": "A central hub of information for all involved with Dare 2 Dance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "jquery": "^2.1.1",
+    "request": "^2.47.0",
+    "superagent": "^0.18.2"
+  },
+  "author": "Chareesa Graham",
+  "license": "ISC"
+}
