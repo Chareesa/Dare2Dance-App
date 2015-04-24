@@ -4,10 +4,10 @@ html, body {
 
 body {
 	background-color: black;
-	background-image: url("../images/groupPicture.jpg");
+	background-image: url("../images/performanceDates.png");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center fixed;
+	background-position: center;
+	clip: rect(2px,365px,457px,2px);
 }
 
 @font-face {
@@ -18,6 +18,61 @@ body {
 p, h1 {
 	color: white;
 	font-family: 'janda';
+}
+
+.nav_button {
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	color: white;
+	background-color: green;
+}
+
+.nav_button:after {
+	z-index: 0;
+	display: block;
+	top: 22px;
+	right: 23px;
+	background-color: blue;
+}
+
+.horiz_button {
+	top: 50%;
+	margin-top: -10px;
+	height: 20px;
+
+	/*border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;*/
+}
+
+.vert_button {
+	left: 50%;
+	margin-left: -50px;
+	width: 100px;
+	/*border-left: 15px solid transparent;
+	border-right: 15px solid transparent;*/
+}
+
+#topButton {
+	top: 0%;/*
+	border-top: 30px solid red;*/
+}
+
+#rightButton {
+	right: 0%;/*
+	border-right: 30px solid red;*/
+}
+
+#bottomButton {
+	bottom: 0%;/*
+	border-bottom: 30px solid red;*/
+}
+
+#leftButton {
+	left: 0%;
+	/*
+	border-left: 30px solid red;*/
 }
 /*html {
 	width: 100%;
